@@ -12,7 +12,7 @@ export default function Home() {
 
 <Sidebar />
 <Feed />
-  <h2>Widgetsr</h2>
+  <h2>Widgets</h2>
 </div>
     </div>
   )
