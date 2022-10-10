@@ -15,7 +15,7 @@ import {
   }from 'react-icons/bs'
 import { CgMoreO } from 'react-icons/cg'
 
-
+import Link from 'next/link'
 
 const style = {
 wrapper: `flex-[0.7] px-8 flex flex-col`,
@@ -55,6 +55,7 @@ return(
           text='Explore'
           isActive={Boolean(selected === 'Explore')}
           setSelected={setSelected}
+          redirect={'/'}
         />
         <SidebarOption
           Icon={selected === 'Notifications' ? FaBell : FiBell}
